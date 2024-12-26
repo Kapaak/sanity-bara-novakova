@@ -1726,6 +1726,11 @@
     estree-walker "^2.0.2"
     magic-string "~0.30.11"
 
+"@phosphor-icons/react@^2.1.7":
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@phosphor-icons/react/-/react-2.1.7.tgz#b11a4b25849b7e3849970b688d9fe91e5d4fd8d7"
+  integrity sha512-g2e2eVAn1XG2a+LI09QU3IORLhnFNAFkNbo2iwbX6NOKSLOwvEMmTa7CgOzEbgNWR47z8i8kwjdvYZ5fkGx1mQ==
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
@@ -2218,6 +2223,11 @@
     "@sanity/icons" "^3.5.0"
     "@sanity/ui" "^2.9.0"
     lodash "^4.17.21"
+
+"@sanity/locale-cs-cz@^1.1.13":
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/@sanity/locale-cs-cz/-/locale-cs-cz-1.1.13.tgz#42acff2da1cc66ba3d49256b252a71a0db27a792"
+  integrity sha512-pLCFtLd9HEclXHdUDs4/XAJ6/kJsyFnnU1PYLXxkChjbSIHXfujYz5Qx0idV9Xpa+Z0IiKNgNuVa19SR6WPK3Q==
 
 "@sanity/logos@^2.1.13", "@sanity/logos@^2.1.4":
   version "2.1.13"
