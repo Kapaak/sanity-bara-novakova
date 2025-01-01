@@ -22,6 +22,9 @@ export const project = defineType({
       name: 'slug',
       title: 'Odkaz na detail projektu',
       type: 'slug',
+      options: {
+        source: 'name',
+      },
     }),
     defineField({
       name: 'url',
