@@ -31,6 +31,11 @@ export const project = defineType({
       },
     }),
     defineField({
+      name: 'year',
+      title: 'Datum vytvoření projektu',
+      type: 'string',
+    }),
+    defineField({
       name: 'url',
       title: 'Odkaz na externí stránku projektu',
       type: 'string',
