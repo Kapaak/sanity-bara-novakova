@@ -1,12 +1,16 @@
 import {defineField, defineType} from 'sanity'
 import {PencilCircle as icon} from '@phosphor-icons/react'
+import {orderRankField, orderRankOrdering} from '@sanity/orderable-document-list'
 
 export const project = defineType({
   name: 'project',
   title: 'Projekty',
   type: 'document',
   icon,
+  orderings: [orderRankOrdering],
   fields: [
+    orderRankField({type: 'category'}),
+
     defineField({
       name: 'name',
       title: 'Název projektu',
