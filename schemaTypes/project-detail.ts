@@ -1,9 +1,5 @@
 import {Notebook as icon} from '@phosphor-icons/react'
 
-//TODO: reference na projekt
-// - oddeluji, aby nebylo tolik veci na jednom miste
-// - reference na jmeno a stitky, mozna i ten description
-
 import {defineField, defineType} from 'sanity'
 
 export const projectDetail = defineType({
@@ -31,20 +27,12 @@ export const projectDetail = defineType({
       type: 'array',
       of: [{type: 'imageAlt'}],
     }),
+
     defineField({
-      name: 'color',
-      title: 'Sekce barvy',
-      type: 'blockContent',
-    }),
-    defineField({
-      name: 'font',
-      title: 'Sekce fonty',
-      type: 'blockContent',
-    }),
-    defineField({
-      name: 'aboutProject',
+      name: 'sections',
       title: 'Detailní popis projektu',
-      type: 'blockContent',
+      type: 'array',
+      of: [{type: 'blockContentObject'}],
     }),
   ],
   preview: {

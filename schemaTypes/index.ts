@@ -1,7 +1,7 @@
 import {project} from './project'
 import {projectDetail} from './project-detail'
 import {tag} from './tag'
-import {imageAlt, blockContent} from '../customTypes'
+import {imageAlt, blockContent, blockContentObject} from '../customTypes'
 
 export const schemaTypes = [
   project,
@@ -10,4 +10,5 @@ export const schemaTypes = [
   //Underneath are custom created types
   imageAlt,
   blockContent,
+  blockContentObject,
 ]
