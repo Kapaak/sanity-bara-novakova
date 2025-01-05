@@ -1,6 +1,7 @@
 import {defineField, defineType} from 'sanity'
 import {PencilCircle as icon} from '@phosphor-icons/react'
 import {orderRankField, orderRankOrdering} from '@sanity/orderable-document-list'
+import {textColors} from '../src/constants'
 
 export const project = defineType({
   name: 'project',
@@ -60,6 +61,22 @@ export const project = defineType({
         },
       ],
       validation: (Rule) => Rule.max(3),
+    }),
+    defineField({
+      name: 'tagColor',
+      title: 'Barva štítku',
+      type: 'string',
+      options: {
+        list: textColors,
+      },
+    }),
+    defineField({
+      name: 'titleColor',
+      title: 'Barva nadpisu',
+      type: 'string',
+      options: {
+        list: textColors,
+      },
     }),
   ],
   preview: {
