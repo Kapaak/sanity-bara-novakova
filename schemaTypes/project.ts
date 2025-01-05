@@ -80,6 +80,6 @@ export const project = defineType({
     }),
   ],
   preview: {
-    select: {title: 'name'},
+    select: {title: 'name', media: 'image'},
   },
 })
