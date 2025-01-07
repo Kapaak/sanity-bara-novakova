@@ -1,9 +1,19 @@
-# Sanity Clean Content Studio
+# Barbora Nováková - Portfolio - Headless CMS
+ Content management system for Barbora Novakova's website.
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+ > Repository for the websites is located [here](https://github.com/Kapaak/bara-portfolio-2024)
 
-Now you can do the following things:
+## 🚀 Project Structure
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+```text
+├── customTypes/
+├── schemaTypes/
+├── src/
+│   ├── constants.ts
+│   ├── structure.ts
+└── package.json
+```
+
+## 💡 Start the development
+- Use yarn package manager.
+- Development is in port 3333 and start it by typing ```yarn dev```.
