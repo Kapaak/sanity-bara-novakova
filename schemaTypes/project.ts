@@ -21,7 +21,7 @@ export const project = defineType({
     defineField({
       name: 'description',
       title: 'Popis projektu',
-      type: 'text',
+      type: 'blockContent',
     }),
     defineField({
       name: 'slug',
