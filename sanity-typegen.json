@@ -1,0 +1,5 @@
+{
+  "path": "'../bara-portfolio-2024/src/**/*.{ts,tsx,js,jsx}'",
+  "schema": "schema.json",
+  "generates": "../bara-portfolio-2024/src/sanity/types.ts"
+}
