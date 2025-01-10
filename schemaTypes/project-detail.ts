@@ -16,18 +16,10 @@ export const projectDetail = defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'usedTechnologies',
-      title: 'Použité technologie',
-      type: 'array',
-      of: [{type: 'imageAlt'}],
+      name: 'image',
+      title: 'Obrázek k detailu projektu',
+      type: 'imageAlt',
     }),
-    defineField({
-      name: 'gallery',
-      title: 'Obrázky pro carousel',
-      type: 'array',
-      of: [{type: 'imageAlt'}],
-    }),
-
     defineField({
       name: 'sections',
       title: 'Detailní popis projektu',
