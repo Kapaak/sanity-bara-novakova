@@ -22,6 +22,6 @@ export const structure = (S: StructureBuilder, context: StructureResolverContext
         title: 'Projekty',
       }),
       ...S.documentTypeListItems().filter(
-        (listItem) => !['project', 'focus'].includes(listItem.getId() ?? ''),
+        (listItem) => !['project', 'focus', 'media.tag'].includes(listItem.getId() ?? ''),
       ),
     ])
