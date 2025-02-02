@@ -1,3 +1,2 @@
-export * from './blockContent';
-export * from './blockContentObject';
-export * from './imageAlt';
+export * from './blockContent'
+export * from './blockContentObject'

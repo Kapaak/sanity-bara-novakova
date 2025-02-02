@@ -25,7 +25,7 @@ export const projectDetail = defineType({
       name: 'gallery',
       title: 'Galerie projektu',
       type: 'array',
-      of: [{type: 'imageAlt'}],
+      of: [{type: 'image', options: {hotspot: true}}],
     }),
   ],
   preview: {

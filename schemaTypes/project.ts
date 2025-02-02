@@ -44,7 +44,8 @@ export const project = defineType({
     defineField({
       name: 'image',
       title: 'Obrázek k projektu',
-      type: 'imageAlt',
+      type: 'image',
+      options: {hotspot: true},
     }),
     defineField({
       name: 'tags',

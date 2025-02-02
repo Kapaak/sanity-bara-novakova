@@ -57,7 +57,7 @@ export const blockContent = defineType({
     // primitive types such as 'string' and 'number' in the same array
     // as a block type.
     defineArrayMember({
-      type: 'imageAlt',
+      type: 'image',
       options: {hotspot: true},
     }),
   ],
