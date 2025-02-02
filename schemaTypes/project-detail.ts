@@ -16,15 +16,16 @@ export const projectDetail = defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'image',
-      title: 'Obrázek k detailu projektu',
-      type: 'imageAlt',
-    }),
-    defineField({
       name: 'sections',
       title: 'Detailní popis projektu',
       type: 'array',
       of: [{type: 'blockContentObject'}],
+    }),
+    defineField({
+      name: 'gallery',
+      title: 'Galerie projektu',
+      type: 'array',
+      of: [{type: 'imageAlt'}],
     }),
   ],
   preview: {
