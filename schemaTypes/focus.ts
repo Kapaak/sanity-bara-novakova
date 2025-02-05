@@ -23,6 +23,14 @@ export const focus = defineType({
       title: 'Popis karty',
       type: 'text',
     }),
+    defineField({
+      name: 'icon',
+      title: 'Ikona',
+      type: 'image',
+      options: {
+        accept: 'image/svg+xml',
+      },
+    }),
   ],
   preview: {
     select: {title: 'name'},
