@@ -79,6 +79,12 @@ export const project = defineType({
         list: textColors,
       },
     }),
+    defineField({
+      name: 'visible',
+      title: 'Má být projekt viditelný?',
+      type: 'boolean',
+      initialValue: true,
+    }),
   ],
   preview: {
     select: {title: 'name', media: 'image'},
